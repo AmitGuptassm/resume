@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amit's-Portfolio</title>
+</head>
+<link rel="stylesheet" href="style.css">
+
+<body>
+    <nav>
+        <div class="left-section">
+            <h1>Amit's Portfolio</h1>
+        </div>
+        <div class="right-section">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact me</a></li>
+        </div>
+    </nav>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hello, I'm <span class="amit">Amit</span>
+                <div> a passionate web developer.</div>
+                <span id="element"></span>
+            </div>
+            <div class="rightsection">
+                <img src="./program.png" alt="" srcset="">
+            </div>
+        </section>
+    </main>
+      <script>
+    var typed = new Typed('#element', {
+      strings: ['<i>First</i> sentence.', '&amp; a second sentence.'],
+      typeSpeed: 50,
+    });
+  </script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web developer', 'Web designer','Video Editor','Coder'],
+          typeSpeed: 50,
+        });
+      </script>
+</body>
+
+</html>
